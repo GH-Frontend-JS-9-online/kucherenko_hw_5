@@ -1,0 +1,65 @@
+
+.team__title{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 2.67rem;
+
+	&-title{
+		color: #314a5b;
+		font-family:  'Montserrat', sans-serif;
+		font-size: 2.13rem;
+		text-transform: uppercase;
+		font-weight: 700;
+		line-height: 1.9;
+	}
+}
+
+.team__item{
+	display: flex;
+	justify-content: center;
+}
+
+.team__button{
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 4.2rem;
+	padding-top: 2rem;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+	padding: 1.67rem .33rem;
+
+	&__text{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: left;
+		padding-left: 1.6rem;
+		width: 11.67rem;
+	}
+
+	&__img{
+		border-radius: 50%;
+		width: 8.53rem;
+	}
+
+	&__name{
+		font-family: 'Montserrat', sans-serif;
+		color: #314a5b;
+		font-weight: 700;
+		font-size: 1.47rem;
+		text-transform: uppercase;
+	}
+
+	&__spec{
+		font-size: .93rem;
+		color: #f0454c;
+		padding-bottom: .87rem;
+	}
+
+	&__feature{
+		font-size: .93rem;
+	}
+}

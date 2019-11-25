@@ -1,0 +1,28 @@
+
+.portfolio{
+	display: flex;
+	padding-bottom: 7.07rem;
+
+	&__img {
+		
+		overflow-x: hidden;
+
+		& img{
+			width: 34.13rem;
+			padding-bottom: 2rem;
+			padding-right: 1.33rem;
+			margin-left: -7.5rem;
+			margin-right: 5.3rem;
+		}
+	}
+}
+
+.block-info__text_color{
+	font-family: 'Montserrat', sans-serif;
+	color: #314a5b;
+	padding-bottom: 2.27rem;
+}
+
+.block-info__title_mod{
+	font-size: 2.67rem;
+}

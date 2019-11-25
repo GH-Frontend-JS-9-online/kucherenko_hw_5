@@ -1,0 +1,35 @@
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 2.34rem;
+	padding-bottom: 2.8rem;
+	border-top: .07rem solid #e6eaed;
+
+	&__social-link{
+		display: flex;
+	}
+
+	&__author{
+		font-size: .87rem;
+		color: #b9c0c6;
+		padding-left: 2rem;
+	}
+
+	&__link{
+		color: #b9c0c6;
+		margin-right: 1.47rem;
+		font-size: 1.4rem;
+		
+		&:hover{
+			color: #fa5c65;
+		}
+
+		&_marg {
+			margin-right: 0;
+		}
+	}
+}
+
+
+
