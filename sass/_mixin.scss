@@ -1,0 +1,6 @@
+@mixin font-montserat($color, $font-size){
+	font-family: 'Montserrat', sans-serif;
+	color: $color;
+	font-size: $font-size;
+
+}

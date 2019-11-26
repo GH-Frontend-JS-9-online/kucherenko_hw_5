@@ -18,8 +18,7 @@
 }
 
 .block-info__text_color{
-	font-family: 'Montserrat', sans-serif;
-	color: #314a5b;
+	@include font-montserat(#314a5b, 1rem);
 	padding-bottom: 2.27rem;
 }
 

@@ -4,10 +4,7 @@
 	flex-direction: column;
 	padding-bottom: 2.67rem;
 
-	&-title{
-		color: #314a5b;
-		font-family:  'Montserrat', sans-serif;
-		font-size: 2.13rem;
+	&-title{@include font-montserat(#314a5b, 2.13rem);
 		text-transform: uppercase;
 		font-weight: 700;
 		line-height: 1.9;
@@ -46,10 +43,8 @@
 	}
 
 	&__name{
-		font-family: 'Montserrat', sans-serif;
-		color: #314a5b;
+		@include font-montserat(#314a5b, 1.47rem);
 		font-weight: 700;
-		font-size: 1.47rem;
 		text-transform: uppercase;
 	}
 

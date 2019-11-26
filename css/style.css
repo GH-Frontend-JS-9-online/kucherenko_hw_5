@@ -84,10 +84,10 @@ a {
   list-style: none; }
 
 .main-nav__link {
+  font-family: 'Montserrat', sans-serif;
   color: #263742;
-  text-transform: uppercase;
-  font-size: .93rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-size: 0.93rem;
+  text-transform: uppercase; }
   .main-nav__link:hover {
     text-shadow: 0 0 1rem rgba(250, 92, 101, 0.8); }
 
@@ -109,10 +109,10 @@ a {
   margin-top: 20.53rem; }
   .main-title__title {
     font-family: 'Montserrat', sans-serif;
+    color: #314a5b;
     font-size: 3.2rem;
     font-weight: 700;
-    text-transform: uppercase;
-    color: #314a5b; }
+    text-transform: uppercase; }
   .main-title__text {
     color: #314a5b;
     font-size: 1.33rem; }
@@ -250,9 +250,9 @@ a {
   .block-info_mod3 {
     padding-right: 0; }
   .block-info__title {
+    font-family: 'Montserrat', sans-serif;
     color: #465065;
     font-size: 1.73rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 1.73rem;
     padding-bottom: 1.67rem;
@@ -289,6 +289,7 @@ a {
 .block-info__text_color {
   font-family: 'Montserrat', sans-serif;
   color: #314a5b;
+  font-size: 1rem;
   padding-bottom: 2.27rem; }
 
 .block-info__title_mod {
@@ -304,8 +305,8 @@ a {
   flex-direction: column;
   padding-bottom: 2.67rem; }
   .team__title-title {
-    color: #314a5b;
     font-family: 'Montserrat', sans-serif;
+    color: #314a5b;
     font-size: 2.13rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -357,8 +358,8 @@ a {
   .profile__name {
     font-family: 'Montserrat', sans-serif;
     color: #314a5b;
-    font-weight: 700;
     font-size: 1.47rem;
+    font-weight: 700;
     text-transform: uppercase; }
   .profile__spec {
     font-size: .93rem;

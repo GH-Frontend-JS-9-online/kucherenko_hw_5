@@ -48,10 +48,8 @@
 	}
 
 	&__link{
-		color: #263742;
+		@include font-montserat(#263742, .93rem);
 		text-transform: uppercase;
-		font-size: .93rem;
-		font-family: 'Montserrat', sans-serif;
 
 		&:hover{
 			text-shadow: 0 0 1rem rgba(#fa5c65,.8);
@@ -76,11 +74,9 @@
 	margin-top: 20.53rem;
 
 	&__title {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 3.2rem;
+		@include font-montserat(#314a5b, 3.2rem);
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #314a5b;
 	}
 
 	&__text {

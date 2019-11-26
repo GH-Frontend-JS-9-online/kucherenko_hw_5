@@ -19,9 +19,7 @@
 	
 
 	&__title {
-		color: #465065;
-		font-size: 1.73rem;
-		font-family: 'Montserrat', sans-serif;
+		@include font-montserat(#465065, 1.73rem);
 		font-weight: 700;
 		line-height: 1.73rem;
 		padding-bottom: 1.67rem;
@@ -43,6 +41,6 @@
 
 		&:hover{
 		text-decoration: underline;
-	}
+		}
 	}
 }
